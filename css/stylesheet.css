@@ -1,0 +1,31 @@
+#wrapper1 {
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 45% 30% 10%;
+    grid-template-areas: 
+    'he'
+    'ma'
+    'sec'
+    'fo';
+}
+
+.headercss{
+    grid-area: he;
+    background-color: blueviolet;
+}
+
+main {
+    grid-area: ma;
+    background-color: rgb(143, 55, 226);
+}
+
+section{
+    grid-area: sec;
+    background-color: rgb(152, 67, 231);
+}
+
+footer{
+    grid-area: fo;
+    background-color: rgb(156, 80, 228);
+}
