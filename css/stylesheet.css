@@ -14,7 +14,6 @@
 
 
 
-
 .headercss{
     grid-area: he;
     background-color: rgb(134, 33, 227);
@@ -45,6 +44,8 @@
     background-color: rgb(252, 163, 53);
     margin-top: 2px;
     margin-bottom: 4px; margin-left: 4px; margin-right: 4px;
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -66,11 +67,22 @@ main {
     background-color: goldenrod;
     margin-bottom: 4px; margin-left: 4px; margin-right: 2px; margin-top: 4px;
 }
+#H5MaD {
+
+}
 
 .maindiv {
     grid-area: Mdiv;
     background-color: rgb(217, 170, 51);
     margin-bottom: 4px; margin-left: 2px; margin-right: 4px; margin-top: 4px;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+#H5MaD {
+
 }
 
 
@@ -82,13 +94,38 @@ main {
     background-color: rgb(152, 67, 231);
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 30% 70%;
     grid-template-areas: 
     'S1article1 S1article1'
     'S1article2 S1article3'
 }
 
+#section1article1{
+    grid-area: S1article1;
+    background-color: rgb(231, 196, 2);
+    margin-bottom: 2px; margin-left: 4px; margin-right: 4px; margin-top: 4px;
+} 
+
+#section1article2{
+    grid-area: S1article2;
+    background-color: rgb(222, 193, 28);
+    margin-bottom: 4px; margin-left: 4px; margin-right: 2px; margin-top: 2px;
+}
+
+#section1article3{
+    grid-area: S1article3;
+    background-color: rgb(223, 197, 46);
+    margin-bottom: 4px; margin-left: 2px; margin-right: 4px; margin-top: 2px;
+}
+
+
+
+
+
 footer{
     grid-area: fo;
     background-color: rgb(156, 80, 228);
+    display: flex;
+    justify-content: space-around;
+    
 }
