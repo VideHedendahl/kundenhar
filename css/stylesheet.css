@@ -1,19 +1,6 @@
-#wrapper1 {
-    display: grid;
-    height: 250vh;
-    grid-template-columns: 100%;
-    grid-template-rows: 15% 45% 30% 10%;
-    grid-template-areas: 
-    'he'
-    'ma'
-    'sec1'
-    'fo';
-}
-
-
-
-
-
+/*
+Header Start
+*/
 .headercss{
     grid-area: he;
     background-color: rgb(134, 33, 227);
@@ -28,27 +15,42 @@
 .headerdiv {
     grid-area: Hdiv;
     background-color: darkorange;
-    margin-bottom: 2px; margin-right: 2px;
-    margin-top: 4px; margin-left: 4px;
+    margin-bottom: 2px; margin-right: 2px;margin-top: 4px; margin-left: 4px;
 }
 
 .headerrubrik{
     grid-area: Hrubrik;
     background-color: rgb(252, 148, 21);
-    margin-bottom: 2px; margin-left: 2px;
-    margin-top: 4px; margin-right: 4px;
+    margin-bottom: 2px; margin-left: 2px;margin-top: 4px; margin-right: 4px;
 }
 
 .headernav{
     grid-area: Hnav;
     background-color: rgb(252, 163, 53);
-    margin-top: 2px;
-    margin-bottom: 4px; margin-left: 4px; margin-right: 4px;
+    margin-top: 2px;margin-bottom: 4px; margin-left: 4px; margin-right: 4px;
     display: flex;
     justify-content: space-around;
 }
+/*
+Header Slut
+*/
 
 
+
+/*
+Sida 1 Start
+*/
+#wrapper1 {
+    display: grid;
+    height: 250vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 45% 30% 10%;
+    grid-template-areas: 
+    'he'
+    'ma'
+    'sec1'
+    'fo';
+}
 
 
 
@@ -87,8 +89,6 @@ main {
 
 
 
-
-
 #section1{
     grid-area: sec1;
     background-color: rgb(152, 67, 231);
@@ -117,11 +117,132 @@ main {
     background-color: rgb(223, 197, 46);
     margin-bottom: 4px; margin-left: 2px; margin-right: 4px; margin-top: 2px;
 }
+/*
+Sida 1 Slut
+*/
 
 
 
+/*
+Sida 2 Start
+*/
+#wrapper2{
+    display: grid;
+    height: 250vh;
+    grid-template-columns: 33% 14% 19% 33%;
+    grid-template-rows: 15% 25% 25% 25% 10%;
+    grid-template-areas: 
+    'he he he he'
+    'W2as W2as W2ar1 W2ar1'
+    'W2as W2as W2ar2 W2ar2'
+    'W2dv W2ar3 W2ar3 W2ar4'
+    'fo fo fo fo';
+}
 
 
+
+#wrapper2aside{
+    grid-area: W2as;
+    background-color: blue;
+    margin-bottom: 2px; margin-left: 2px; margin-right: 2px; margin-top: 4px;
+}
+
+
+
+#wrapper2article1{
+    grid-area: W2ar1;
+    background-color: rgb(15, 15, 255);
+    margin-bottom: 2px; margin-left: 2px; margin-right: 2px; margin-top: 4px;
+}
+
+
+
+#wrapper2article2{
+    grid-area: W2ar2; 
+    background-color: rgb(26, 26, 253);
+    margin: 2px;
+}
+
+
+
+#wrapper2div{
+    grid-area: W2dv;
+    background-color: rgb(34, 34, 255);
+    margin-bottom: 4px; margin-left: 2px; margin-right: 2px; margin-top: 2px;
+}
+
+
+
+#wrapper2article3{
+    grid-area: W2ar3;
+    background-color: rgb(41, 41, 253);
+    margin-bottom: 4px; margin-left: 2px; margin-right: 2px; margin-top: 2px;
+}
+
+
+
+#wrapper2article4{
+    grid-area: W2ar4;
+    background-color: rgb(50, 50, 254);
+    margin-bottom: 4px; margin-left: 2px; margin-right: 2px; margin-top: 2px;
+}
+/*
+Sida 2 Slut
+*/
+
+
+
+/*
+Sida 3 Start
+*/
+#wrapper3{
+    display: grid;
+    height: 250vh;
+    grid-template-columns: 33,33% 33,33% 33,33%;
+    grid-template-rows: 15% 50% 25% 10%;
+    grid-template-areas: 
+    'he he he'
+    'W3se W3se W3se'
+    'W3ar1 W3ar2 W3ar3'
+    'fo fo fo';  
+}
+
+
+
+#wrapper3section{
+    grid-area: W3se;
+    background-color: darkgreen;
+}
+
+
+
+#wrapper3article1{
+    grid-area: W3ar1;
+    background-color: rgb(6, 116, 6);
+}
+
+
+
+#wrapper3article2{
+    grid-area: W3ar2;
+    background-color: rgb(8, 129, 8);
+}
+
+
+
+#wrapper3article3{
+    grid-area: W3ar3;
+    background-color: rgb(15, 157, 15);
+}
+/*
+Sida 3 Start
+*/
+
+
+
+/*
+Footer Start
+*/
 footer{
     grid-area: fo;
     background-color: rgb(156, 80, 228);
@@ -129,3 +250,6 @@ footer{
     justify-content: space-around;
     
 }
+/*
+Footer Slut
+*/
